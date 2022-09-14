@@ -12,7 +12,7 @@ def closest (values, N):
 
 myfile = sys.argv[sys.argv.index("--file") + 1]        
 with open(myfile) as f:
-    next(f)
+    print ('\t'.join(['pair', 'state'] + next(f).rstrip().split('\t')) )
     for line in f:
         if re.search('Significant pvalue', line): 
             x=line.rstrip().split('\t') 

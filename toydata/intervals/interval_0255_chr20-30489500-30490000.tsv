@@ -1,0 +1,4 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+-4424	enst00000614365	sg00000275877	5_8s_rrna.3-201	20	30484925	30485076	-	rRNA	rrna
+55601	enst00000636528	sg00000283443	ac018688.1-201	20	30545601	30551470	+	pseudogenic_transcript	unprocessed_pseudogene
+-86116	enst00000418346	sg00000238151	mllt10p1-201	20	30403123	30403384	-	pseudogenic_transcript	processed_pseudogene

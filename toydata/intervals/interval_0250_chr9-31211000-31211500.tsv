@@ -1,0 +1,3 @@
+distance to tss	transcript id	gene id	transcript name	chromosome	start	end	strand	feature type	transcript biotype
+42401	enst00000497974	sg00000232203	slc25a6p2-201	9	31253901	31254777	+	pseudogenic_transcript	processed_pseudogene
+-44020	enst00000455940	sg00000223421	al354854.1-201	9	31165618	31166980	-	pseudogenic_transcript	processed_pseudogene

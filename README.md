@@ -1,10 +1,8 @@
-# meth
-tools for processing Pycometh output
-
+# Tools for processing pycoMeth output
 
 ### `closestNeighbors.py` 
 
-When running `Meth_Comp` to determine differential methylation, it is not obvious from the Pycometh output which two-out-of-three samples have similar methylation profile, and the directionality (Methylated/Unmethylated). 
+When running `Meth_Comp` to determine differential methylation, it is not obvious from the pycoMeth output which two-out-of-three samples have similar methylation profile, and the directionality (Methylated/Unmethylated). 
 
 For each interval with significant pvalue, `closestNeighbors.py` uses the information in the 'med_llr_list' and 'raw_llr_list' of the raw `Meth_Comp` output to determine the two closest neighbours in a comparison of three samples. 
 

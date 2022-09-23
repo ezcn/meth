@@ -13,5 +13,7 @@ The script adds two fields to `Meth_Comp` output:
 - *state* directionality (Methylated/Unmethylated) of the methylation state in the pair. 
 
  
-```annotatePycomethReport.py --file MethComp_Allchr_d10_w500.pval.tsv > MethComp_Allchr_d10_w500.pval.annotated.tsv```
+```
+annotatePycomethReport.py --file MethComp_Allchr_d10_w500.pval.tsv > MethComp_Allchr_d10_w500.pval.annotated.tsv
+```
 

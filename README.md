@@ -12,7 +12,8 @@ The script adds two fields to `Meth_Comp` output:
 
  
 ```
-annotatePycomethReport.py --file MethComp_Allchr_d10_w500.pval.tsv > MethComp_Allchr_d10_w500.pval.annotated.tsv
+closestNeighbors.py --file toydata/PycomethReportToy.tsv > myoutput
+
 ```
 
 ### `annotateIntervals.py` 

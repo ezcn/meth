@@ -15,3 +15,6 @@ The script adds two fields to `Meth_Comp` output:
 annotatePycomethReport.py --file MethComp_Allchr_d10_w500.pval.tsv > MethComp_Allchr_d10_w500.pval.annotated.tsv
 ```
 
+### `annotateIntervals.py` 
+
+pycoMeth `Meth_Comp` output includes a folder with data on genomic features close to genomic intervals showing significant differential methylation      

@@ -1,5 +1,7 @@
 import sys, ast, re, numpy as np
 
+"""USAGE closestNeighbors.py --file toydata/PycomethReportToy.tsv > myoutput
+"""
 
 def closest (values, N): 
         X = np.array(values).astype(np.float32)

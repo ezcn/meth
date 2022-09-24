@@ -2,7 +2,7 @@ import sys, os
 import pandas as pd
 
 """
-USAGE intersect.py --intervals toydata/intervals/ --out  myoutput 
+USAGE annotateIntervals.py --intervals toydata/intervals/ --out  myoutput 
 """
 
 mydir = sys.argv[sys.argv.index("--intervals") + 1]   ## use slash / at the end of the folder path 
@@ -20,12 +20,4 @@ for root, dirs, files in os.walk(mydir, topdown = False):
         df=pd.concat([df,tmpdf], ignore_index=True) 
 
 df.to_csv(myoutput, sep="\t", index = False)
-
-
-    #    
-    #    with open(myfile) as f:
-     #       print ('\t'.join([ 'i_chrom', 'i_start', 'i_end', 'interval'] + next(f).rstrip().split('\t')) )
-     #       for line in f:
-     #           y=line.rstrip().split('\t') 
-      #          print ('\t'.join([chrom, start, end, interval ] + y) )
 

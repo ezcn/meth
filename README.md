@@ -18,4 +18,17 @@ closestNeighbors.py --file toydata/PycomethReportToy.tsv > myoutput
 
 ### `annotateIntervals.py` 
 
-pycoMeth `Meth_Comp` output includes a folder with data on genomic features close to genomic intervals showing significant differential methylation      
+pycoMeth `Meth_Comp` output includes a folder with data on genomic features that are close to genomic intervals showing significant differential methylation in form of a tab separated values (.tsv). However there is no track of the interval identificative (number) or coordinates except in the name of the file. 
+      
+`annotateIntervals.py` reads and combines all files in a folder adding the information contained in the name of the file: 
+
+- *ichrom* chromosome to which the interval maps 
+- *istart* interval starting base 
+- *iend* interval ending base 
+- *iid* interval identificative (number) 
+
+ 
+```
+annotateIntervals.py --intervals toydata/intervals/ --out  myoutput 
+
+```

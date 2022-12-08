@@ -32,3 +32,6 @@ pycoMeth `Meth_Comp` output includes a folder with data on genomic features that
 annotateIntervals.py --intervals toydata/intervals/ --out  myoutput 
 
 ```
+
+
+to be revised 
